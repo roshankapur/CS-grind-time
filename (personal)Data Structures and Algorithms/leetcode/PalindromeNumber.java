@@ -1,4 +1,5 @@
-package leetcode;//https://leetcode.com/problems/palindrome-number/solution/
+package leetcode;
+//https://leetcode.com/problems/palindrome-number/solution/
 //Given an integer x, return true if x is palindrome integer.
 
 
