@@ -18,7 +18,7 @@ public class MedianOfTwoSortedArrays {
         int[] nums1 = {1};
         int[] nums2 = new int[1];
 
-        System.out.println(findMedianSortedArrays(nums1,nums2));
+        System.out.println(findMedianSortedArrays(nums1, nums2));
     }
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] medianElements = {0,0,0,0};
@@ -40,9 +40,11 @@ public class MedianOfTwoSortedArrays {
 
         Arrays.sort(medianElements);
 
-        if(medianElements[0] == 0 && medianElements[1] ==0){
+        if(medianElements[0] == 0 && medianElements[1] ==0 && medianElements[2] == 0  && medianElements[3] !=0){
+            median = (medianElements[3]+medianElements[2])/2;
+        }else if(medianElements[0] == 0 && medianElements[1] ==0 && medianElements[2] !=0 && medianElements[3] !=0){
             median = medianElements[2] < medianElements[3] ? medianElements[2] : medianElements[3];
-        }else if(medianElements[0] == 0 && medianElements[1] !=0){
+        }else if(medianElements[0] == 0 && medianElements[1] !=0 && medianElements[2] !=0 && medianElements[3] !=0){
             median = (medianElements[3]+medianElements[2])/2;
         }else median = (double) (medianElements[1]+medianElements[2])/2;
 
