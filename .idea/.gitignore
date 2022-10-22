@@ -6,5 +6,5 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-C:/Users/kapur/Desktop/CS-grind-time/goldmannSachsCodingRound/
-C:/Users/kapur/Desktop/CS-grind-time/out/
+C:/Users/kapur/Desktop/CS-grind-time/goldmannSachsCodingRound/**
+C:/Users/kapur/Desktop/CS-grind-time/out/**
