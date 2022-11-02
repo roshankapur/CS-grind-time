@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 //starter code
 
-class Result {
+public class Result {
 
     /*
      * Complete the 'getQueryResults' function below.
