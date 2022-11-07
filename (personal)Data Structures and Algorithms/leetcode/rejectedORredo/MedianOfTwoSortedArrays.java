@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.rejectedORredo;
 //https://leetcode.com/problems/median-of-two-sorted-arrays/
 //given two sorted arrays of size m and n, find the median of the two arrays
 //leetcode hard difficulty

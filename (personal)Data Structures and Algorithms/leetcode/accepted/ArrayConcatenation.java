@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.accepted;
 //https://leetcode.com/problems/concatenation-of-array/submissions/
 
 //given an array of size n create an array of size 2n that is the concatenation of the original array

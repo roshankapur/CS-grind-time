@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.rejectedORredo;
 //https://leetcode.com/problems/find-pivot-index/
 
 public class pivotIndexOfArrayVersion1 {
