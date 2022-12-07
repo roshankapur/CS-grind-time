@@ -13,11 +13,14 @@ import leetcode.ListNode;
         " Traverse linked list using two-pointers. Move one pointer by one and the other pointers by two.
          When the fast pointer reaches the end, the slow pointer will reach the middle of the linked list."
 * */
-
 /*
+* this method is also called slow pointer fast pointer approach
+*
 * two pointers are initialized, one pointer's goal is to reach the end of the list and the loop iterates it so
 * the other pointer arrives at the middle when the first arrives at the end and we return the second pointer.
 * */
+
+
 //another method
 //Initialize the mid element as head and initialize a counter as 0. Traverse the list from the head,
 // while traversing increment the counter and change mid to mid->next whenever the counter is odd.
