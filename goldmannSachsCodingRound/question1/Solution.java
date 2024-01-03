@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 //starter code
-
+/*
 public class Result {
 
     /*
@@ -21,7 +21,7 @@ public class Result {
      * The function accepts following parameters:
      *  1. LONG_INTEGER n
      *  2. 2D_INTEGER_ARRAY queries
-     */
+     
 
     public static List<Integer> getQueryResults(long n, List<List<Integer>> queries) {
     // Write your code here
@@ -29,6 +29,7 @@ public class Result {
     }
 
 }
+*/
 
 public class Solution {
     public static void main(String[] args) throws IOException {
@@ -53,7 +54,7 @@ public class Solution {
                 throw new RuntimeException(ex);
             }
         });
-
+/*
         List<Integer> result = Result.getQueryResults(n, queries);
 
         bufferedWriter.write(
@@ -65,5 +66,7 @@ public class Solution {
 
         bufferedReader.close();
         bufferedWriter.close();
+    
+    */
     }
 }
